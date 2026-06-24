@@ -6,189 +6,70 @@
 <title>Mes Sheets EPS</title>
 <style>
   @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap');
-
   * { box-sizing: border-box; margin: 0; padding: 0; }
-
-  body {
-    font-family: 'Inter', sans-serif;
-    background: #0f172a;
-    color: #e2e8f0;
-    min-height: 100vh;
-    padding: 2rem 1rem;
-  }
-
-  header {
-    text-align: center;
-    margin-bottom: 2.5rem;
-  }
-
-  header h1 {
-    font-size: 1.6rem;
-    font-weight: 700;
-    letter-spacing: -0.02em;
-    color: #f8fafc;
-  }
-
-  header p {
-    font-size: 0.85rem;
-    color: #64748b;
-    margin-top: 0.4rem;
-  }
-
-  .grid {
-    display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(260px, 1fr));
-    gap: 1rem;
-    max-width: 900px;
-    margin: 0 auto;
-  }
-
-  a.card {
-    display: flex;
-    align-items: center;
-    gap: 1rem;
-    background: #1e293b;
-    border: 1px solid #334155;
-    border-radius: 12px;
-    padding: 1rem 1.2rem;
-    text-decoration: none;
-    color: inherit;
-    transition: background 0.15s, border-color 0.15s, transform 0.1s;
-  }
-
-  a.card:hover {
-    background: #263347;
-    border-color: #4ade80;
-    transform: translateY(-2px);
-  }
-
-  .icon {
-    width: 38px;
-    height: 38px;
-    border-radius: 8px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-shrink: 0;
-    font-size: 1.1rem;
-  }
-
-  .icon.sheets { background: #16a34a22; color: #4ade80; }
-
-  .label {
-    font-size: 0.9rem;
-    font-weight: 600;
-    color: #f1f5f9;
-    line-height: 1.3;
-  }
-
-  .type {
-    font-size: 0.72rem;
-    color: #64748b;
-    margin-top: 0.2rem;
-    text-transform: uppercase;
-    letter-spacing: 0.05em;
-  }
+  body { font-family: 'Inter', sans-serif; background: #0f172a; color: #e2e8f0; min-height: 100vh; padding: 2rem 1rem; }
+  header { text-align: center; margin-bottom: 2.5rem; }
+  header h1 { font-size: 1.6rem; font-weight: 700; letter-spacing: -0.02em; color: #f8fafc; }
+  header p { font-size: 0.85rem; color: #64748b; margin-top: 0.4rem; }
+  .grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(260px, 1fr)); gap: 1rem; max-width: 900px; margin: 0 auto; }
+  a.card { display: flex; align-items: center; gap: 1rem; background: #1e293b; border: 1px solid #334155; border-radius: 12px; padding: 1rem 1.2rem; text-decoration: none; color: inherit; transition: background 0.15s, border-color 0.15s, transform 0.1s; }
+  a.card:hover { background: #263347; border-color: #4ade80; transform: translateY(-2px); }
+  .icon { width: 38px; height: 38px; border-radius: 8px; display: flex; align-items: center; justify-content: center; flex-shrink: 0; font-size: 1.1rem; background: #16a34a22; color: #4ade80; }
+  .label { font-size: 0.9rem; font-weight: 600; color: #f1f5f9; line-height: 1.3; }
+  .type { font-size: 0.72rem; color: #64748b; margin-top: 0.2rem; text-transform: uppercase; letter-spacing: 0.05em; }
 </style>
 </head>
 <body>
-
 <header>
   <h1>📊 Mes Sheets EPS</h1>
   <p>Accès rapide à tous les fichiers Google Drive</p>
 </header>
-
 <div class="grid">
 
   <a class="card" href="https://docs.google.com/spreadsheets/d/1hPexMUrN5nU_jEiuQeKd2kwbHtvrjmyWBLpGpGMBsyY/edit?usp=drive_link" target="_blank">
-    <div class="icon sheets">📋</div>
-    <div>
-      <div class="label">Suivi BB</div>
-      <div class="type">Google Sheets</div>
-    </div>
+    <div class="icon">📋</div><div><div class="label">Suivi BB</div><div class="type">Google Sheets</div></div>
   </a>
 
   <a class="card" href="https://docs.google.com/spreadsheets/d/1v1zo06LpI9iPBdyQG2zCu7W0IPa_LqRbYyMV1cWn0NE/edit?usp=drive_link" target="_blank">
-    <div class="icon sheets">📋</div>
-    <div>
-      <div class="label">Suivi cycle demi-fond 3e</div>
-      <div class="type">Google Sheets</div>
-    </div>
+    <div class="icon">📋</div><div><div class="label">Suivi cycle demi-fond 3e</div><div class="type">Google Sheets</div></div>
   </a>
 
-  <a class="card" href="https://docs.google.com/spreadsheets/d/1v1zo06LpI9iPBdyQG2zCu7W0IPa_LqRbYyMV1cWn0NE/edit?usp=drive_link" target="_blank">
-    <div class="icon sheets">📋</div>
-    <div>
-      <div class="label">Suivi escalade</div>
-      <div class="type">Google Sheets</div>
-    </div>
+  <a class="card" href="https://docs.google.com/spreadsheets/d/1UujdE9QjJIlRgpVfdBVdE7ALAV53oEBlapGnXVpWQWU/edit?usp=sharing" target="_blank">
+    <div class="icon">📋</div><div><div class="label">Suivi escalade</div><div class="type">Google Sheets</div></div>
   </a>
 
   <a class="card" href="https://docs.google.com/spreadsheets/d/1U6TDJmsxgu_w1zZP7d9JSAB67zH8yqO-BUKiUI0Qmrg/edit?usp=drive_link" target="_blank">
-    <div class="icon sheets">📋</div>
-    <div>
-      <div class="label">Demi-fond 4e</div>
-      <div class="type">Google Sheets</div>
-    </div>
+    <div class="icon">📋</div><div><div class="label">Demi-fond 4e</div><div class="type">Google Sheets</div></div>
   </a>
 
   <a class="card" href="https://docs.google.com/spreadsheets/d/1fV4YqaTYfT0feH-MS5Wfkh4auIlutsYWnsnL-_FUv3w/edit?usp=drive_link" target="_blank">
-    <div class="icon sheets">📋</div>
-    <div>
-      <div class="label">Eval 3e demi-fond</div>
-      <div class="type">Google Sheets</div>
-    </div>
+    <div class="icon">📋</div><div><div class="label">Eval 3e demi-fond</div><div class="type">Google Sheets</div></div>
   </a>
 
   <a class="card" href="https://docs.google.com/spreadsheets/d/1De6IgAaiKjdJIomE35yhxvc8D2fbA-ZafTtSOvbDo6o/edit?usp=drive_link" target="_blank">
-    <div class="icon sheets">📋</div>
-    <div>
-      <div class="label">Test VMA</div>
-      <div class="type">Google Sheets</div>
-    </div>
+    <div class="icon">📋</div><div><div class="label">Test VMA</div><div class="type">Google Sheets</div></div>
   </a>
 
   <a class="card" href="https://docs.google.com/spreadsheets/d/1yS2PJMRW0-cifcqJ37Loa-Ume3EDhfailV0FQEuupEg/edit?usp=drive_link" target="_blank">
-    <div class="icon sheets">📋</div>
-    <div>
-      <div class="label">Crossfit</div>
-      <div class="type">Google Sheets</div>
-    </div>
+    <div class="icon">📋</div><div><div class="label">Crossfit</div><div class="type">Google Sheets</div></div>
   </a>
 
   <a class="card" href="https://docs.google.com/spreadsheets/d/11IdzRFJYUYa6nit82HoUZTrCQbKdiAOO-7t83RFTxTg/edit?usp=drive_link" target="_blank">
-    <div class="icon sheets">📋</div>
-    <div>
-      <div class="label">Eval crossfit 5e</div>
-      <div class="type">Google Sheets</div>
-    </div>
+    <div class="icon">📋</div><div><div class="label">Eval crossfit 5e</div><div class="type">Google Sheets</div></div>
   </a>
 
   <a class="card" href="https://docs.google.com/spreadsheets/d/19h2VjQJkciciTsoCL3lwvGygOSBv44nioP2KufLBO34/edit?usp=sharing" target="_blank">
-    <div class="icon sheets">📋</div>
-    <div>
-      <div class="label">Eval crossfit 3e</div>
-      <div class="type">Google Sheets</div>
-    </div>
+    <div class="icon">📋</div><div><div class="label">Eval crossfit 3e</div><div class="type">Google Sheets</div></div>
   </a>
 
   <a class="card" href="https://docs.google.com/spreadsheets/d/1HyUVWJ5YZ0GYt687NSwS8bNPs1yyH-XqF7TC_d07uUQ/edit?usp=sharing" target="_blank">
-    <div class="icon sheets">📋</div>
-    <div>
-      <div class="label">Eval bad 3e</div>
-      <div class="type">Google Sheets</div>
-    </div>
+    <div class="icon">📋</div><div><div class="label">Eval bad 3e</div><div class="type">Google Sheets</div></div>
   </a>
 
   <a class="card" href="https://docs.google.com/spreadsheets/d/16Hl_L1phaJaIzcYnZH8vEqNPQZYV6_86rC04T-efw0M/edit?usp=sharing" target="_blank">
-    <div class="icon sheets">📋</div>
-    <div>
-      <div class="label">Suivi bad 3e</div>
-      <div class="type">Google Sheets</div>
-    </div>
+    <div class="icon">📋</div><div><div class="label">Suivi bad 3e</div><div class="type">Google Sheets</div></div>
   </a>
 
 </div>
-
 </body>
 </html>
